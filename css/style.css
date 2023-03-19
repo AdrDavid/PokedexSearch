@@ -1,0 +1,217 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: rgb(44, 44, 44);
+}
+        .pokedexBox{
+            width: 700px;
+            
+            background-color: aqua;
+            display: flex;
+            align-items: left;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            padding: 20px 0;
+            margin: 20px auto;
+            border-radius: 30px;
+        }
+
+        .titulo{
+           padding: 5% 15%;
+           border-radius: 20px;
+           font-size: 50px;
+           color: rgb(247, 247, 12);
+           background-color: rgba(0, 0, 0, 0.336);
+            margin: 0 auto;
+        }
+
+        .orizontal{
+            width: 100%;
+            display: flex;
+        }
+
+        .alin-image{
+            margin-top: 10px;
+            width: 50%;
+            /* background-color: brown; */
+            padding: 0 5%;
+        }
+        .image{
+            width: 100%;
+            height: 100%;
+            background-color: rgb(231, 231, 231);
+            border-radius: 30px;
+            border: 2px solid black;
+           /* display: none; */
+        }
+
+        .alin{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.336);
+            border-radius: 20px;
+            margin-top: 10px;
+            margin-right: 5%;
+            
+        }
+        .alin h1{
+            margin: 0 auto;
+            font-size: 30px;
+        }
+        .form{
+            
+            margin-top: 10px;
+            width: 50%;
+            padding: 0 5%;
+        }
+
+        .form input{
+            width: 100%;
+            padding: 5% 2%;
+            border-radius: 5px;
+            border: none;
+            font-size: 17px;
+        }
+
+        
+
+        .number{
+            color: grey;
+        }
+
+        .pokemon__data{
+            line-height: 40px;
+            display: flex;
+            align-items: left;
+            flex-direction: column;
+        }
+
+        
+
+        .displayBlock{
+            display: block;
+        }
+
+        .main{
+            margin:20px auto;
+            width: 100%;
+            background-color: white;
+            padding: 30px 15%;
+        }
+
+        .boxPokemon{
+            margin: 20px 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .teste img{
+            width: 100%;
+            
+            
+        }
+
+        .teste{
+            text-align: center;
+            border-radius: 10px;
+            width: 21%;
+            margin: 20px 2%;
+            background-color: rgba(0, 0, 0, 0.801);
+            padding: 5% 0;
+            color: yellow;
+        }
+        
+        
+        #top{
+            position: fixed;
+            right: 2%;
+            bottom: 30px;
+            width: 100px;
+            height: 30px;
+            font-size: 20px;
+            font-family: tahoma;
+            background-color: aqua;
+            cursor: pointer;
+        }
+        @media screen and (max-width: 750px) {
+            .teste{
+            text-align: center;
+            border-radius: 10px;
+            width: 46%;
+            margin: 20px 2%;
+            background-color: rgba(0, 0, 0, 0.801);
+
+        }
+
+        .image{
+            width: 100%;
+            height: 100%;
+            background-color: rgb(231, 231, 231);
+            border-radius: 30px;
+            border: 2px solid black;
+           /* display: none; */
+        }
+
+        .form input{
+            width: 100%;
+            
+            padding: 5% 2%;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .form{
+            margin-top: 10px;
+            width: 100%;
+        }
+
+
+        .main{
+            margin:20px auto;
+            width: 100%;
+            background-color: white;
+            padding: 30px 15%;
+        }
+
+        .pokedexBox{
+            width: 90%;
+            
+            background-color: aqua;
+            display: flex;
+            align-items: left;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            padding: 20px 0;
+            margin: 20px auto;
+            border-radius: 30px;
+        }
+        .alin{
+            width: 90%;
+            display: flex;
+            align-items: center;
+            font-size: 14px;
+            padding: 0 5%;
+           margin: 0 auto;
+           margin-top: 10px;
+           border-radius: 20px; 
+        }
+
+        .orizontal{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .alin-image{
+            width: 100%;
+            /* background-color: brown; */
+            padding: 0 5%;
+        }
+
+        }
